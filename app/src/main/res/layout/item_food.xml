@@ -34,12 +34,12 @@
                 app:shapeAppearanceOverlay="@style/roundedCorners"
                 />
 
-            <TextView android:textSize="18sp"
-                android:textColor="@color/dark_gray"
+            <TextView
                 android:id="@+id/list_item_title"
+                android:textSize="18sp"
+                android:textColor="@color/dark_gray"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="TextView"
                 android:lines="2"
                 android:fontFamily="@font/quicksand_medium"
                 android:textAlignment="textStart"
@@ -48,13 +48,13 @@
                 app:layout_constraintStart_toEndOf="@+id/list_item_image"
                 app:layout_constraintTop_toTopOf="@+id/list_item_image"/>
 
-            <TextView android:textSize="12.5sp"
+            <TextView
+                android:id="@+id/list_item_description"
+                android:textSize="12.5sp"
                 android:textColor="@color/gray"
                 android:ellipsize="end"
-                android:id="@+id/list_item_description"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="TextView"
                 android:lines="2"
                 android:fontFamily="@font/quicksand_regular"
                 android:textAlignment="textStart"
@@ -62,11 +62,12 @@
                 app:layout_constraintStart_toStartOf="@+id/list_item_title"
                 app:layout_constraintTop_toBottomOf="@+id/list_item_title"/>
 
-            <TextView android:textSize="12sp"
+            <TextView
+                android:id="@+id/list_item_weight"
+                android:textSize="12sp"
                 android:textColor="@color/gray"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="TextView"
                 android:fontFamily="@font/quicksand_medium"
                 android:textAlignment="textStart"
                 app:layout_constraintBottom_toBottomOf="@+id/list_item_image"
