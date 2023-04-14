@@ -76,7 +76,6 @@
             android:orientation="vertical">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card_search"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
@@ -105,7 +104,6 @@
                 style="@style/OutlinedRoundedBox">
             <com.google.android.material.textfield.TextInputEditText
                 android:textColorHint="@color/light_gray"
-                android:id="@+id/home_search"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/home_search_hint"
@@ -127,7 +125,6 @@
                 />
 
             <ProgressBar
-                android:id="@+id/progress_bar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"

@@ -7,7 +7,6 @@
     tools:context="com.yasiru.inntavola.ui.itemdetail.ItemDetailFragment">
 
     <ProgressBar
-        android:id="@+id/progress_bar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -30,7 +29,6 @@
             android:layout_weight="1">
 
             <ImageView
-                android:id="@+id/backward"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
@@ -65,7 +63,6 @@
 
 
     <androidx.core.widget.NestedScrollView
-        android:id="@+id/item_view"
         android:background="@color/cream"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -87,7 +84,6 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <LinearLayout
-                android:id="@+id/top_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -97,7 +93,6 @@
                 app:layout_constraintTop_toBottomOf="@+id/item_image">
 
                 <TextView
-                    android:id="@+id/item_title"
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
@@ -108,12 +103,11 @@
 
 
                 <TextView
-                    android:id="@+id/item_description_long"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:textSize="16sp"
-                    android:fontFamily="@font/qr"
+                    android:fontFamily="@font/quicksand_regular"
                     android:textColor="@color/black"
                     />
 
@@ -145,7 +139,6 @@
 
 
                         <TextView
-                            android:id="@+id/item_ingredienti"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:textSize="16sp"
@@ -189,7 +182,6 @@
 
 
                         <TextView
-                            android:id="@+id/item_allergeni"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
 
