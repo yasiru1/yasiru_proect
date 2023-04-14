@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OutlinedRoundedBox" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="shapeAppearanceOverlay">@style/Search_Text_Rounded</item>
+    </style>
+
+    <style name="Search_Text_Rounded">
+        <item name="cornerFamily">@null</item>
+        <item name="cornerSize">25dp</item>
+    </style>
+    <style name="roundedCorners">
+        <item name="cornerFamily">@null</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
+    <style name="roundedBottomCornersImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+</resources>
